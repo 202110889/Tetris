@@ -2,15 +2,15 @@
   display: flex;
 }
 .grid {
-  width: 200px;
-  height: 400px;
+  width: 350px;
+  height: 700px;
   display: flex;
   flex-wrap: wrap;
   background-color: black;
 }
 .grid div{
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
 }
 
 .tetromino{
@@ -18,13 +18,23 @@
 }
 .mini-grid{
   margin-left: 50px;
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
   display: flex;
   flex-wrap: wrap;
   background-color: gray;
 }
 .mini-grid div{
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
+}
+.up-button{
+  height: 90px;
+  width: 90px;
+  margin-left: -120px;
+  margin-top: 210px
+}
+.rest-of-buttons{
+  height: 90px;
+  width: 90px;
 }
