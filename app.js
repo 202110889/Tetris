@@ -220,7 +220,6 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       draw()
       timerId = setInterval(moveDown, 800)
-      nextRandom = Math.floor(Math.random() * theTetrominoes.length)
       displayShape()
     }
   })
